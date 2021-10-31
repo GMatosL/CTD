@@ -1,0 +1,52 @@
+* {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+* {background-color: rgb(224, 205, 241);}
+* {margin: 25px 25px 25px 25px;
+   text-align: center;
+
+
+}
+
+h1 {font-size: 55px;
+    font-weight:5000;
+
+}
+h2 {font-size: 25px;
+    font-weight:500;
+}
+li {font-size: 20px;
+    font-weight:390;
+      
+
+}
+a.Botao {font-size: 11px;
+    font-weight:390;
+}
+
+a.Botao:link, a.Botao:visited {
+    background-color: #f4f136;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.Botao:hover, a.Botao:active {
+    background-color: rgb(238, 255, 0);
+  }
+
+
+
+
+
+a {font-size: 20px;
+   font-weight:200;
+   
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
