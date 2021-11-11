@@ -1,0 +1,37 @@
+div{
+    border: black solid 1px;
+}
+.caixa-1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.caixad{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    left: 45px;
+    top: 40px;
+}
+
+.caixa-2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+}
+
+.caixa-3{
+    position: fixed;
+    bottom: 5px;
+    left:45%;
+}
+
+
+
+
+
+
