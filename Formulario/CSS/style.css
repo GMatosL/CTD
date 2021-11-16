@@ -1,0 +1,33 @@
+body { 
+    background-color: rgb(204, 204, 245);
+}
+
+nav { 
+    text-align: center;
+    padding: 10px;
+    font-family: 'Shrikhand', cursive;
+    background-color: rgb(163, 163, 211);
+    font-size: 30px;
+    width: 2000px;
+    height: 30px;
+
+}
+
+.prod1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;   
+    width: 100%;
+    left: 500px;
+    position: absolute;
+
+}
+
+.prod2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    left: 1000px;
+ 
+
+}
