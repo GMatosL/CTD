@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulario</title>
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="card">
+        <div id="logo"></div>
+          <header>
+              <h1>Aproveite aqui sua promoção</h1>
+          </header>
+          
+              <div class="campo">
+                  <form action="/registro" method="Post">
+                      <label for="nome"> <strong> Nome:</strong></label>
+              <input type="text" name="Nome:" id="nome">
+                           
+            </imput>
+          </div>
+          
+          <div class="campo">
+          <label for="email"><strong>Email</strong> </label>
+          <input type="text" name="email" id="email">
+          </div>
+      
+          <div class="campo">
+          <label for="sugestões"><strong>Sugestões:</strong> </label>
+          <textarea name="sugestões" id="sugestões" cols="30" rows="5">Conteúdo</textarea>
+          </div>
+            
+            <div class="campo">
+            <label for="profissao"><strong>Escolha aqui sua profissão </strong> </label>
+              <div>
+              <select name="profissao" id="profissao">
+                <option value="" disabled selected>Selecione</option>
+                <option value="">Dev Full Stack</option>
+                <option value="">Front-End</option>
+                <option value="">Back-End</option>
+                <option value="">QA</option>
+              </select>
+              </div>
+            </div>
+      <div class="button">
+      <button type="reset">Cancelar!</button>
+      <button type="submit">Enviar!</button>
+      </div>
+          </form>
+          <div>
+          <center>
+           <h2>
+          <strong>
+             Você não está pensando em ficar de fora, né ?
+          </strong>
+            </h2>
+         </center>
+         </div>
+         </div>
+    <script src="script.js"></script>
+  </body>
+</html>

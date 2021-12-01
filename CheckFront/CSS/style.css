@@ -25,7 +25,7 @@ header {
     background-repeat: no-repeat;
     background-size: 170%;
     border: 2px solid black;
-    line-height: 55px;
+    line-height: 40px;
   
     
 
@@ -40,3 +40,26 @@ img {
     width: 32px;
     height: 32px;
 }
+
+form {
+    background-color: cadetblue;
+    height: 100%;
+    width: 30%;
+    align-content: center;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+footer {
+    padding: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
+  .campo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
