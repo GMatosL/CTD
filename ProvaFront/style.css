@@ -1,0 +1,28 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mx-auto {
+      padding: 60px;
+      background-color: white;
+  
+
+
+  }
+
+  #logo {
+    background-image: url('../img/digital-house-logo.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+  }
+
+  .Cursos {
+      padding: 50px;
+  }
